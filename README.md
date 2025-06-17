@@ -16,16 +16,6 @@ This project demonstrates a complete Business Intelligence analysis workflow bui
 	•	Exported the final structured insights as CSVs
 	•	Built a clean, single-page Power BI Dashboard using disconnected data tables
 
-📈 Dashboard Features
-
-Insight Area		Visual Type
-Sales by Sub-Category	Area Chart
-Sales by Customer	Bar Chart
-Avg Order & Profit	Dual Line Chart
-Regional SalesvsProfit  Stacked Area Chart
-Profit by Category	Donut Chart
-Repeat Customer Table	Table
-
 💡 Skills Demonstrated
 	•	Power BI Desktop (Visuals, Layout, KPI Reporting)
 	•	Data Cleaning in PySpark
