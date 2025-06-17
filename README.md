@@ -1,39 +1,40 @@
-# Retail-BI-Analysis-Azure-Databricks
-Retails Sales and Customer Business Intelligence Analysis using Azure Databricks
-🧠 Retail BI Analysis with Azure Databricks
+📊 Retail Sales Business Intelligence Dashboard
 
-This project demonstrates how to use Azure Databricks for performing end-to-end Business Intelligence (BI) analysis on retail sales data. It includes data cleaning, transformation, exploratory analysis, metric generation, and CSV exports — all performed in a Mac-compatible, cost-free setup using the Databricks Community Edition.
+This project demonstrates a complete Business Intelligence analysis workflow built using Azure Databricks (for data prep) and Power BI Desktop (for dashboarding), aimed at surfacing key retail insights for decision-making.
 
 ⸻
 
-📌 Objectives
-	•	Execute a full BI pipeline on Databricks using PySpark and Pandas
-	•	Generate actionable insights across key business metrics
-	•	Export final datasets for downstream visualization (e.g., Power BI, Excel)
+🚀 Project Highlights
+	•	Cleaned, transformed, and analyzed retail sales data in Azure Databricks using PySpark
+	•	Generated 7 analytical datasets including:
+	•	Monthly Sales Trends
+	•	Top-Selling Products
+	•	Profitability by Category & Region
+	•	Average Order Value by Customer
+	•	Customer Segmentation
+	•	Repeat Purchase Behavior
+	•	Exported the final structured insights as CSVs
+	•	Built a clean, single-page Power BI Dashboard using disconnected data tables
+
+📈 Dashboard Features
+
+Insight Area		Visual Type
+Sales by Sub-Category	Area Chart
+Sales by Customer	Bar Chart
+Avg Order & Profit	Dual Line Chart
+Regional SalesvsProfit  Stacked Area Chart
+Profit by Category	Donut Chart
+Repeat Customer Table	Table
+
+💡 Skills Demonstrated
+	•	Power BI Desktop (Visuals, Layout, KPI Reporting)
+	•	Data Cleaning in PySpark
+	•	CSV → BI Pipeline
+	•	Insight storytelling & dashboard design
+	•	Working with disconnected datasets in BI tools
 
 ⸻
 
-📂 Files Included
-	•	retail_bi_analysis.ipynb – Main Databricks notebook with all logic and analysis
-	•	monthly_sales_final.csv – Sales trend over time
-	•	top_products_final.csv – Top selling products
-	•	profitability_final.csv – Profitability by category
-	•	sales_region_final.csv – Sales performance by region
-	•	avg_order_value_final.csv – Average order value summary
-	•	customer_segmentation_final.csv – Segmentation breakdown
-	•	repeat_customers_final.csv – Repeat purchase behavior
-
-⸻
-
-🔧 Key Features
-	•	Data Loading: Ingested raw retail sales data into Databricks notebook
-	•	Data Cleaning: Performed null handling, column renaming, and type casting with PySpark
-	•	Metric Calculation: Built 7 distinct BI summaries using groupBy, agg, and filtering
-	•	CSV Export: Exported each analysis as .csv files using Pandas for external BI use
-
-⸻
-
-⚙️ Tech Stack
-	•	Platform: Azure Databricks (Community Edition)
-	•	Languages: PySpark, Python, Pandas
-	•	Outputs: CSV files for Power BI, Excel, or Tableau
+📁 Files
+	•	Retail_Sales_BI_Dashboard.pbix – Final Power BI dashboard
+	•	7 CSVs – Each containing a cleaned dataset for visualization
